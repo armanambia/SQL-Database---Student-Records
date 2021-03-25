@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Professor Information</title>
+</head>
+<body>
+
+<div>
+    <h1>Professor Information</h1>
+
+    <div>
+        <h3>Class Information</h3>
+        <form action="ProfessorSchedule.php" method="POST"> 
+            Enter the social security number: <input type="text" name="prof_sno"/>
+            <input type="submit"/>
+        </form>
+    </div>
+
+    <div>
+        <h3>Grades</h3>
+        <form action="CourseGrades.php" method="POST"> 
+            Enter a course number: <input type="text" name="prof_cno"/>
+            Enter a section number: <input type="text" name="prof_sec_no"/>
+            <input type="submit"/>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
